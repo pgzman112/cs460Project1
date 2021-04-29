@@ -1,0 +1,16 @@
+Input file: newTest.ss
+   1: car + cdr - cons / if * else = and > 
+   2: or > not >= define <= number? ( string? ) list? ' 
+   3: cond display newline less modulo else round 
+   4: zero?  null?  char? cadr cddr caddr cdddr abc? 
+Error at 4,19: Invalid character found: ?
+Error at 4,46: Invalid character found: ?
+   5: some	more let [ ] abc.def symbols and a line of numbers cartalk 
+Error at 5,22: Invalid character found: .
+   6: 1 123 12.23 .34 123 -1 -2.2 +15 +.5 +5. +. 
+   7: "A string" "or two; or 3" 
+   8: car+cdr*cddr/caddr-cons/if*else=and> 
+   9: or>not>=define<=number?(string?)list?' 
+   10: 112312.23.34123-1-2.2+15+.5+5.-. *. 
+Error at 10,32: Invalid character found: -.
+4 errors found in input file
